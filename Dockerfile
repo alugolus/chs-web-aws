@@ -5,4 +5,4 @@ FROM httpd:2.4
 COPY /index.html /index.html
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/index.html"]
+ENTRYPOINT ["index.html"]
